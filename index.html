@@ -434,7 +434,10 @@
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+               disable: window.innerWidth < 768 // optional: disables AOS on mobile
+        });
+     
     </script>
 
 </body>
