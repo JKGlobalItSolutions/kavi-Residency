@@ -4,185 +4,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JMV Residency - Home</title>
-    <link rel="icon" type="image/png" href="./assets/logo/JMV Residency.png">
+    <title>Kavi Residency - Home</title>
+    <link rel="icon" type="image/png" href="">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./scripts/scroll.js"></script>
     <link rel="stylesheet" href="./styles/scroll.css">
+
+
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg sticky-top custom-navbar">
-    <div class="container text-center">
-        <a class="navbar-brand fw-bold" href="./index.html">
-            <img src="./assets/logo/JMV Residency.png" alt="Logo" height="70"> <!-- Logo Section -->
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./files/about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./files/contact.html">Contact</a>
-                </li>
-                <li class="nav-item d-lg-none"> <!-- Show only in mobile view -->
-                    <a href="./files/contact.html" class="book-now-btn">Book Now</a>
-                </li>
-            </ul>
+
+
+
+
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+        <div class="container text-center">
+            <a class="navbar-brand fw-bold" href="./index.html">
+                <img src="" alt="Logo" height="70"> <!-- Logo Section -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./files/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./files/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item d-lg-none"> <!-- Show only in mobile view -->
+                        <a href="./files/contact.html" class="book-now-btn">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="./files/contact.html" class="book-now-btn ms-3 d-none d-lg-inline-block">Book Now</a>
+            <!-- Hide in mobile view -->
         </div>
-        <a href="./files/contact.html" class="book-now-btn ms-3 d-none d-lg-inline-block">Book Now</a> <!-- Hide in mobile view -->
-    </div>
-</nav>
+    </nav>
 
 
 
 
-        <!-- Carousel Start -->
-<div class="container-fluid overflow-hidden px-0">
-    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img src="./assets/banner/homepage/Banner.jpg" class="img-fluid w-100" alt="First slide"/>
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/banner/homepage/Banner 2.jpg" class="img-fluid w-100" alt="Second slide"/>
-            </div>
-           <!--  <div class="carousel-item">
+    <!-- Carousel Start -->
+    <div class="container-fluid overflow-hidden px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="./assets/banner/homepage/Banner.jpg" class="img-fluid w-100" alt="First slide" />
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/banner/homepage/Banner 2.jpg" class="img-fluid w-100" alt="Second slide" />
+                </div>
+                <!--  <div class="carousel-item">
                 <img src="./assets/originalimages/six.jpeg  " class="img-fluid w-100" alt="Third slide"/>
             </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-</div>
-<!-- Carousel End -->
+    <!-- Carousel End -->
 
-<!-- Room Features -->
-<section class="room-features py-5">
-    <div class="container text-center">
-        <h2 class="mb-5">Our Rooms</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-4 mb-4">
-                <div class="card text-center h-100">
-                    <img src="./assets/originalimages/one.jpeg" class="card-img-top" alt="Room Image">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Single Bed</h5>
-                        <p class="card-text flex-grow-1">Enjoy a cozy space with modern amenities for a relaxing experience. Experience top-notch comfort with elegant interiors and premium facilities. Unwind in a serene ambiance designed for your ultimate relaxation.</p>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-tv"></i> Inbuilt TV Connection</li>
-                        </ul>
-                        <h6 class="fw-bold mt-2">Price: ₹2250</h6>
-                        <a href="./files/contact.html" class="btn btn-primary px-4 py-2 mt-auto" 
-                            style="background: linear-gradient(90deg, #6A0DAD, #D4145A); 
-                            border: none; font-weight: bold; transition: all 0.3s ease-in-out;"
-                            onmouseover="this.style.background='#FFD700'; this.style.color='#000'; this.style.transform='scale(1.08)';"
-                            onmouseout="this.style.background='linear-gradient(90deg, #6A0DAD, #D4145A)'; this.style.color='#fff'; this.style.transform='scale(1)';">
-                            Book Now
-                        </a>
+    <!-- Room Features -->
+    <section class="room-features py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5" style="color: #333;" data-aos="fade-up">🛏️ Our Rooms</h2>
+
+            <!-- CARD 1 -->
+            <div class="card mb-4  shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/originalimages/one.jpeg" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Room Image" style="max-height: 250px;">
+                    </div>
+                    <div class="col-md-8 d-flex">
+                        <div class="card-body d-flex flex-column justify-content-between py-3 px-4">
+                            <div>
+                                <h5 class="card-title">Single Bed</h5>
+                                <p class="card-text small mb-2">Enjoy a cozy space with modern amenities for a relaxing
+                                    experience. Experience top-notch comfort with elegant interiors and premium
+                                    facilities.</p>
+                                <ul class="list-unstyled small mb-2">
+                                    <li><i class="fas fa-tv"></i> Inbuilt TV Connection</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-2">Price: ₹2250</h6>
+                                <a href="./files/contact.html" class="btn btn-primary px-3 py-2"
+                                    style="background: linear-gradient(90deg, #6A0DAD, #D4145A); border: none; font-weight: bold; transition: all 0.3s ease-in-out;"
+                                    onmouseover="this.style.background='#FFD700'; this.style.color='#000'; this.style.transform='scale(1.05)';"
+                                    onmouseout="this.style.background='linear-gradient(90deg, #6A0DAD, #D4145A)'; this.style.color='#fff'; this.style.transform='scale(1)';">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card text-center h-100">
-                    <img src="./assets/originalimages/single bed glass.jpeg" class="card-img-top" alt="Room Image">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Deluxe Single Room with Panoramic Mountain View</h5>
-                        <p class="card-text flex-grow-1">Experience comfort and elegance in our Single Bed Room, designed to offer a perfect blend of luxury and tranquility. Nestled on the top floor, this room features glass walls on two sides, offering breathtaking mountain views and an abundance of natural light.</p>
-                        <h6 class="fw-bold mt-2">Price: ₹2000</h6>
-                        <a href="./files/contact.html" class="btn btn-primary px-4 py-2 mt-auto" 
-                            style="background: linear-gradient(90deg, #6A0DAD, #D4145A); 
-                            border: none; font-weight: bold; transition: all 0.3s ease-in-out;"
-                            onmouseover="this.style.background='#FFD700'; this.style.color='#000'; this.style.transform='scale(1.08)';"
-                            onmouseout="this.style.background='linear-gradient(90deg, #6A0DAD, #D4145A)'; this.style.color='#fff'; this.style.transform='scale(1)';">
-                            Book Now
-                        </a>
+            <!-- CARD 2 -->
+            <div class="card mb-4  shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/originalimages/single bed glass.jpeg"
+                            class="img-fluid w-100 h-100 object-fit-cover" alt="Room Image" style="max-height: 250px;">
+                    </div>
+                    <div class="col-md-8 d-flex">
+                        <div class="card-body d-flex flex-column justify-content-between py-3 px-4">
+                            <div>
+                                <h5 class="card-title">Deluxe Single Room with Panoramic Mountain View</h5>
+                                <p class="card-text small mb-2">Experience comfort and elegance in our Single Bed Room,
+                                    designed to offer a perfect blend of luxury and tranquility. Breathtaking mountain
+                                    views included.</p>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-2">Price: ₹2000</h6>
+                                <a href="./files/contact.html" class="btn btn-primary px-3 py-2"
+                                    style="background: linear-gradient(90deg, #6A0DAD, #D4145A); border: none; font-weight: bold; transition: all 0.3s ease-in-out;"
+                                    onmouseover="this.style.background='#FFD700'; this.style.color='#000'; this.style.transform='scale(1.05)';"
+                                    onmouseout="this.style.background='linear-gradient(90deg, #6A0DAD, #D4145A)'; this.style.color='#fff'; this.style.transform='scale(1)';">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 mb-4">
-                <div class="card text-center h-100">
-                    <img src="./assets/originalimages/three.jpeg" class="card-img-top" alt="Room Image">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Double Bed</h5>
-                        <p class="card-text flex-grow-1">Designed with convenience in mind, ensuring a pleasant stay. Enjoy a spacious and well-furnished room equipped with modern amenities to provide maximum comfort</p>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-tv"></i> Inbuilt TV Connection</li>
-                        </ul>
-                        <h6 class="fw-bold mt-2">Price: ₹3000</h6>
-                        <a href="./files/contact.html" class="btn btn-primary px-4 py-2 mt-auto" 
-                            style="background: linear-gradient(90deg, #6A0DAD, #D4145A); 
-                            border: none; font-weight: bold; transition: all 0.3s ease-in-out;"
-                            onmouseover="this.style.background='#FFD700'; this.style.color='#000'; this.style.transform='scale(1.08)';"
-                            onmouseout="this.style.background='linear-gradient(90deg, #6A0DAD, #D4145A)'; this.style.color='#fff'; this.style.transform='scale(1)';">
-                            Book Now
-                        </a>
+            <!-- CARD 3 -->
+            <div class="card mb-4  shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/originalimages/three.jpeg" class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Room Image" style="max-height: 250px;">
+                    </div>
+                    <div class="col-md-8 d-flex">
+                        <div class="card-body d-flex flex-column justify-content-between py-3 px-4">
+                            <div>
+                                <h5 class="card-title">Double Bed</h5>
+                                <p class="card-text small mb-2">Enjoy a spacious and well-furnished room equipped with
+                                    modern amenities to provide maximum comfort and convenience.</p>
+                                <ul class="list-unstyled small mb-2">
+                                    <li><i class="fas fa-tv"></i> Inbuilt TV Connection</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-2">Price: ₹3000</h6>
+                                <a href="./files/contact.html" class="btn btn-primary px-3 py-2"
+                                    style="background: linear-gradient(90deg, #6A0DAD, #D4145A); border: none; font-weight: bold; transition: all 0.3s ease-in-out;"
+                                    onmouseover="this.style.background='#FFD700'; this.style.color='#000'; this.style.transform='scale(1.05)';"
+                                    onmouseout="this.style.background='linear-gradient(90deg, #6A0DAD, #D4145A)'; this.style.color='#fff'; this.style.transform='scale(1)';">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- What Our Guests Say -->
+    <section class="py-5" style="background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);">
+        <div class="container text-center">
+            <h2 class="text-center fw-bold mb-5" style="color: #333;" data-aos="fade-up">💬 What Our Guests Say</h2>
+            <p class="mb-5 text-muted">Real stories from our happy guests who experienced warmth and comfort at
+                <strong>Kavi Residency</strong>.</p>
+
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 bg-white rounded-4 shadow h-100  border-5">
+                        <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="text-dark">"One of the best places I’ve stayed at! Super clean rooms, courteous staff,
+                            and a calm atmosphere. Will definitely return."</p>
+                        <h6 class="fw-bold mt-3 mb-0 text-primary">– Karthik R.</h6>
+                        <small class="text-muted">Business Traveler</small>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 bg-white rounded-4 shadow h-100  border-5 ">
+                        <i class="fas fa-quote-left fa-2x text-success mb-3"></i>
+                        <p class="text-dark">"I booked this place for my parents. They loved the stay! Good food options
+                            nearby and very peaceful."</p>
+                        <h6 class="fw-bold mt-3 mb-0 text-success">– Priya M.</h6>
+                        <small class="text-muted">Guest from Chennai</small>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="p-4 bg-white rounded-4 shadow h-100  border-5">
+                        <i class="fas fa-quote-left fa-2x text-danger mb-3"></i>
+                        <p class="text-dark">"Felt like a home away from home. The staff were helpful, and the rooms had
+                            all the facilities I needed."</p>
+                        <h6 class="fw-bold mt-3 mb-0 text-danger">– Naveen J.</h6>
+                        <small class="text-muted">Frequent Traveler</small>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
-<!-- Amenities Section -->
-<section class="py-5" style="background: url('./assets/amenities/amenities.jpeg') center/cover no-repeat; color: #fff;">
-    <div class="container text-center">
-        <h2 class="fw-bold">Amenities & Services</h2>
-        <p class="mb-5">Experience world-class comfort and convenience with our premium amenities, designed to make your stay truly unforgettable.</p>
-        <div class="row">
-            <div class="col-md-3 mb-4">
-                <div>
-                    <i class="fas fa-bath fs-1" style="color: #FFD700;"></i>
-                    <h5 class="fw-bold mt-3">Bathtub</h5>
-                    <p>Relax and unwind in our luxurious bathtubs, offering a spa-like experience in your private space.</p>
+    <!-- Amenities Section -->
+    <section class="py-5"
+        style="background: url('./assets/amenities/mountainview.jpg') center/cover no-repeat; color: #fff;">
+        <div class="container text-center">
+            <h2 class="text-center fw-bold mb-5" style="color: #333;" data-aos="fade-up">🛎️ Amenities & Services</h2>
+            <p class="mb-5" style="color: rgb(29, 29, 28);">Experience world-class comfort and convenience with our
+                premium amenities, designed to make your stay truly unforgettable.</p>
+
+            <div class="row">
+                <!-- 1 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-bath fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">Bathtub</h5>
+                        <p>Relax and unwind in our luxurious bathtubs, offering a spa-like experience in your private
+                            space.</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-shower fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">Shower</h5>
+                        <p>Enjoy a refreshing rainfall shower with high-quality water pressure for a rejuvenating
+                            experience.</p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-tv fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">Television</h5>
+                        <p>Stay entertained with our smart TVs featuring cable channels, Netflix, and on-demand content.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-mountain fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">Mountain View Room</h5>
+                        <p>Enjoy breathtaking mountain views from your private balcony, offering a serene and refreshing
+                            retreat.</p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-wifi fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">High-Speed Wi-Fi</h5>
+                        <p>Seamless and fast internet connectivity across the entire property, perfect for both work and
+                            leisure.</p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-snowflake fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">Air Conditioning</h5>
+                        <p>Stay cool and comfortable in every room with individually controlled air conditioning
+                            systems.</p>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-concierge-bell fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">24/7 Room Service</h5>
+                        <p>Enjoy prompt and professional service around the clock, tailored to your needs and
+                            preferences.</p>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <i class="fas fa-car fs-1" style="color: #FFD700;"></i>
+                        <h5 class="fw-bold mt-3">Free Parking</h5>
+                        <p>Secure, on-site parking available for all guests with easy access to entry and exit points.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-4">
-                <div>
-                    <i class="fas fa-shower fs-1" style="color: #FFD700;"></i>
-                    <h5 class="fw-bold mt-3">Shower</h5>
-                    <p>Enjoy a refreshing rainfall shower with high-quality water pressure for a rejuvenating experience.</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div>
-                    <i class="fas fa-tv fs-1" style="color: #FFD700;"></i>
-                    <h5 class="fw-bold mt-3">Television</h5>
-                    <p>Stay entertained with our smart TVs featuring cable channels, Netflix, and on-demand content.</p>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div>
-                    <i class="fas fa-mountain fs-1" style="color: #FFD700;"></i>
-                    <h5 class="fw-bold mt-3">Mountain View Room</h5>
-                    <p>Enjoy breathtaking mountain views from your private balcony, offering a serene and refreshing retreat.</p>
-                </div>
-            </div>
-            
         </div>
-    </div>
-</section>
+    </section>
 
+<!--  Explore Our Gallery -->
     <section class="image-gallery-section mt-4">
-        <h2 class="section-title">Explore Our Gallery</h2>
+        <h2 class="text-center fw-bold mb-4" style="color: #333;" data-aos="fade-up">📸 Explore Our Gallery</h2>
         <div class="scroll-container">
             <div class="scroll-wrapper" id="scrollGallery">
                 <img src="./assets/originalimages/one.jpeg" alt="Image 1" onclick="openLightbox(0)">
@@ -198,30 +338,46 @@
     </section>
 
 
-    <!-- Lightbox Popup -->
-    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <span class="close" onclick="closeLightbox()">&times;</span>
-        <img id="lightboxImage" class="lightbox-content" onclick="event.stopPropagation()">
-        <button class="prev" onclick="changeImage(-1); event.stopPropagation();">&#10094;</button>
-        <button class="next" onclick="changeImage(1); event.stopPropagation();">&#10095;</button>
+    <!-- Lightbox -->
+    <div id="lightbox" onclick="closeLightbox()"
+        style="display:none; position:fixed; z-index:9999; padding-top:50px; left:0; top:0; width:100%; height:100%; overflow:hidden; background-color:rgba(0,0,0,0.9); text-align:center;">
+        <span onclick="closeLightbox()"
+            style="position:absolute; top:30px; right:50px; color:white; font-size:40px; cursor:pointer;">&times;</span>
+        <img id="lightboxImage" style="margin:auto; max-width:90%; max-height:80vh; border-radius:8px;"
+            onclick="event.stopPropagation()">
+        <button onclick="changeImage(-1); event.stopPropagation();"
+            style="cursor:pointer; position:absolute; top:50%; left:30px; color:white; font-size:36px; background:rgba(255,255,255,0.2); border:none; border-radius:50%; padding:12px;">&#10094;</button>
+        <button onclick="changeImage(1); event.stopPropagation();"
+            style="cursor:pointer; position:absolute; top:50%; right:30px; color:white; font-size:36px; background:rgba(255,255,255,0.2); border:none; border-radius:50%; padding:12px;">&#10095;</button>
     </div>
 
 
-   <!-- QR Code Section -->
-<section class="qr-code-section py-5 bg-light">
-    <div class="container">
-        <div class="row justify-content-center align-items-center text-center">
-            <div class="col-md-6 mb-4 mb-md-0">
-                <h4 class="fw-bold">Find Us Easily</h4>
-                <p>Scan the QR code to get our exact location and navigate to JMV Residency effortlessly.</p>
-            </div>
-            <div class="col-md-6">
-                <img src="./assets/mapQR/mapscanner.jpeg" class="img-fluid rounded shadow" style="max-width: 300px; height: auto;" alt="JMV Residency QR Code">
+    <!-- QR Code Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%); color: #2e2e2e;">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center text-md-start">
+
+                <!-- Text Content -->
+                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+                    <h2 class="fw-bold mb-3">📍 Locate Us Instantly</h2>
+                    <p class="lead">Scan the QR code to get accurate directions to <strong>Kavi Residency</strong>. No
+                        hassle, just one tap away from comfort and convenience.</p>
+                    <ul class="list-unstyled mt-4">
+                        <li><i class="fas fa-map-marker-alt text-dark me-2"></i> Near Main Bus Stand, Tirunelveli</li>
+                        <li><i class="fas fa-phone text-dark me-2"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope text-dark me-2"></i> info@residency.com</li>
+                    </ul>
+                </div>
+
+                <!-- QR Image -->
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="./assets/mapQR/mapscanner.jpeg" class="img-fluid rounded-4 shadow-lg"
+                        style="max-width: 280px;" alt="JMV Residency QR Code">
+                </div>
+
             </div>
         </div>
-    </div>
-</section>
-
+    </section>
 
 
 
@@ -229,19 +385,18 @@
 
 
     <!-- Footer -->
-    <section class="py-5"
-        style="background: url('./assets/amenities/black.jpeg') center/cover no-repeat; color: #fff;">
+    <section class="py-5" style="background: url('./assets/amenities/footerimg.jpg') center/cover no-repeat; color: #fff;">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Left Side: Contact Us -->
                 <div class="col-md-4 text-md-start text-center mb-4 mb-md-0">
                     <h2 class="fw-bold">Contact Us</h2>
                     <p>For any inquiries, feel free to reach out:</p>
-                    <p><i class="fas fa-phone"></i> +91  90422 05227</p>
-                    <p><i class="fas fa-envelope"></i> jmvresidency2025@gmail.com
+                    <p><i class="fas fa-phone"></i> +91 1234567890 </p>
+                    <p><i class="fas fa-envelope"></i> kavi residency2025@gmail.com
 
                     </p>
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="./files/contact.html" class="btn btn-primary">Get in Touch</a>
                 </div>
 
                 <!-- Center Heading -->
@@ -263,13 +418,25 @@
         </div>
     </section>
 
-        <!-- WhatsApp Button  -->
+    <!-- WhatsApp Button  -->
     <a href="https://wa.me/9042205227" class="whatsapp-button" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
-`
+
 </html>
