@@ -33,7 +33,7 @@ body {
   margin: 0 30px; /* Increased space between menu items */
 }
 .nav-link:hover {
-  color: #ff00d4 !important; /* Yellow Hover Effect */
+  color: #5a9fbe !important; /* Yellow Hover Effect */
 }
 .nav-link::after {
   content: '';
@@ -70,7 +70,7 @@ body {
   text-decoration: none;
 }
 .book-now-btn:hover {
-  background-color: #ff00d4; /* Yellow Hover Effect */
+  background-color: #6abae9; /* Yellow Hover Effect */
   color: #ffffff;
   transform: scale(1.05);
 }
