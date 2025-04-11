@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,61 +9,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="../styles/style.css">
-
-
-
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-
 </head>
 <body>
-    
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
     <div class="container text-center">
         <a class="navbar-brand fw-bold" href="../index.html">
-            <img src="../assets/logo/logo.png" alt="Logo" height="100"> <!-- Logo Section -->
+            <img src="../assets/logo/logo.png" alt="Logo" height="100">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../files/about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../files/contact.html">Contact</a>
-                </li>
-                <li class="nav-item d-lg-none"> <!-- Show only in mobile view -->
-                    <a href="../files/contact.html" class="book-now-btn">Book Now</a>
-                </li>
+                <li class="nav-item"><a class="nav-link active" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../files/about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="../files/contact.html">Contact</a></li>
+                <li class="nav-item d-lg-none"><a href="../files/contact.html" class="book-now-btn">Book Now</a></li>
             </ul>
         </div>
-        <a href="../files/contact.html" class="book-now-btn ms-3 d-none d-lg-inline-block">Book Now</a> <!-- Hide in mobile view -->
-      
+        <a href="../files/contact.html" class="book-now-btn ms-3 d-none d-lg-inline-block">Book Now</a>
     </div>
 </nav>
 
 <section class="py-5 d-flex align-items-center mt-1" style="background: url('../assets/banner/contact.jpg') center/cover no-repeat; color: #fff; min-height: 500px;">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Left Side: Contact Us -->
             <div class="col-md-5 text-md-start text-center">
-                <h1 class="fw-bold  display-4">Contact Us</h1>
+                <h1 class="fw-bold display-4">Contact Us</h1>
             </div>
-
-            <!-- Divider -->
             <div class="col-md-1 d-none d-md-flex justify-content-center">
                 <div style="width: 2px; height: 80px; background: #fff;"></div>
             </div>
-
-            <!-- Right Side: Content -->
             <div class="col-md-6 text-md-start text-center">
                 <h4 class="fw-bold">Crafting Spaces That Inspire</h4>
                 <p>We specialize in crafting stunning architecture and interior spaces that blend aesthetics with functionality.</p>
@@ -76,9 +55,6 @@
     <div class="container">
         <h1 class="text-center mb-5">Contact Us</h1>
         <div class="row">
-
-            <!-- Left Side: Contact Details -->
-         
             <div class="col-md-6 mb-4">
                 <h2>Get in Touch</h2>
                 <p><i class="fas fa-map-marker-alt"></i> No.118 Thenral Nagar, 9th Cross Street, Vengikkal, (Opp) Reliance Digital World, Thiruvannamalai - 606 604</p>
@@ -86,45 +62,67 @@
                 <p><i class="fas fa-map-marker-alt"></i> Polur Bypass Junction, Opp Krishnamahal, Deepam Nagar, Thiruvannamalai - 606 604</p>
                 <p><i class="fas fa-phone"></i> 9994323430</p>
                 <p><i class="fas fa-envelope"></i> info@kaviresidency.com</p>
-                <div class="embed-responsive embed-responsive-16by9">
-                   
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3254.2087870201367!2d79.071725!3d12.251093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDE1JzAzLjkiTiA3OcKwMDQnMTguMiJF!5e1!3m2!1sen!2sin!4v1744198825506!5m2!1sen!2sin"  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                </div>
+                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
             </div>
-            
 
-            <!-- Right Side: Contact Form -->
             <div class="col-md-6">
                 <div class="p-4 bg-light rounded shadow">
                     <h2 class="mb-4">Send us a Message</h2>
+
                     <form id="contactForm">
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="first-name" class="form-label fw-bold">First Name</label>
-                                <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+                                <input type="text" class="form-control" id="first-name" required>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="last-name" class="form-label fw-bold">Last Name</label>
-                                <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+                                <input type="text" class="form-control" id="last-name" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="email" class="form-label fw-bold">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                <input type="email" class="form-control" id="email" required>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="phone" class="form-label fw-bold">Phone</label>
-                                <input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="room-type" class="form-label fw-bold">Room Type</label>
+                                <select id="room-type" class="form-control" required>
+                                    <option value="" disabled selected>Select Room Type</option>
+                                    <option>Standard</option>
+                                    <option>Deluxe</option>
+                                    <option>Suite</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="guests" class="form-label fw-bold">Number of Guests</label>
+                                <input type="number" class="form-control" id="guests" min="1" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="checkin-date" class="form-label fw-bold">Check-in Date</label>
+                                <input type="date" class="form-control" id="checkin-date" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="checkout-date" class="form-label fw-bold">Check-out Date</label>
+                                <input type="date" class="form-control" id="checkout-date" required>
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label fw-bold">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+                            <label for="message" class="form-label fw-bold">Message / Special Requests</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-danger px-4 py-2 rounded-pill">Submit</button>
                     </form>
+                    
+
                 </div>
             </div>
         </div>
@@ -134,42 +132,38 @@
 <section class="py-5" style="background: url('../assets/amenities/footerimg.jpg') center/cover no-repeat; color: #fff;">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Left Side: Contact Us -->
             <div class="col-md-4 text-md-start text-center mb-4 mb-md-0">
                 <h2 class="fw-bold">Contact Us</h2>
                 <p>For any inquiries, feel free to reach out:</p>
                 <p><i class="fas fa-phone"></i> +91 9080330699 </p>
                 <p><i class="fas fa-envelope"></i> info@kaviresidency.com</p>
-                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="./contact.html" class="btn btn-primary">Get in Touch</a>
             </div>
-
-            <!-- Center Heading -->
             <div class="col-md-4 text-center">
                 <h2 class="fw-bold">Amenities & Services</h2>
                 <p>Experience world-class comfort and convenience with our premium amenities, designed to make your stay truly unforgettable.</p>
             </div>
-
-            <!-- Right Side: Additional Content -->
             <div class="col-md-4 text-md-end text-center">
                 <h4 class="fw-bold">Why Choose Us?</h4>
                 <p>✔ Luxury rooms with modern interiors</p>
                 <p>✔ 24/7 room service & housekeeping</p>
                 <p>✔ Located in the heart of the city</p>
-                <a href="" class="btn btn-outline-light">Explore More</a>
+                <a href="./contact.html" class="btn btn-outline-light">Explore More</a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- WhatsApp Button -->
 <a href="https://wa.me/919080330699" class="whatsapp-button" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
 <script>
     (function () {
-        emailjs.init("PKYZH-RAbc8EDCT5b"); // Replace with your Email.js user ID
+        emailjs.init("PKYZH-RAbc8EDCT5b"); // Replace with your EmailJS user ID
     })();
 
     document.getElementById("contactForm").addEventListener("submit", function (event) {
@@ -179,18 +173,30 @@
     });
 
     function sendMessage() {
-        var phoneNumber = "919994323430"; // Your WhatsApp phone number with country code
+        const now = new Date().toLocaleString();
+
+        var phoneNumber = "919342738133";
         var firstName = encodeURIComponent(document.getElementById("first-name").value);
         var lastName = encodeURIComponent(document.getElementById("last-name").value);
         var email = encodeURIComponent(document.getElementById("email").value);
         var phone = encodeURIComponent(document.getElementById("phone").value);
+        var roomType = encodeURIComponent(document.getElementById("room-type").value);
+        var guests = encodeURIComponent(document.getElementById("guests").value);
+        var checkinDate = encodeURIComponent(document.getElementById("checkin-date").value);
+        var checkoutDate = encodeURIComponent(document.getElementById("checkout-date").value);
         var message = encodeURIComponent(document.getElementById("message").value);
 
         var whatsappMessage = 
-            "Name: " + firstName + " " + lastName + "%0A" +
-            "Email: " + email + "%0A" +
-            "Phone: " + phone + "%0A" +
-            "Message: " + message;
+            "🏡 *Kavi Residency - Booking Inquiry*%0A" +
+            "👤 Name: " + firstName + " " + lastName + "%0A" +
+            "📧 Email: " + email + "%0A" +
+            "📞 Phone: " + phone + "%0A" +
+            "🕒 Submitted On: " + now + "%0A" +
+            "💬 Message / Special Requests: " + message + "%0A" +
+            "🏠 Room Type: " + roomType + "%0A" +
+            "👥 Number of Guests: " + guests + "%0A" +
+            "📅 Check-in Date: " + checkinDate + "%0A" +
+            "📅 Check-out Date: " + checkoutDate;
 
         var url = "https://wa.me/" + phoneNumber + "?text=" + whatsappMessage;
 
@@ -198,38 +204,39 @@
     }
 
     function sendEmail() {
+        const now = new Date().toLocaleString();
+
         var templateParams = {
             first_name: document.getElementById("first-name").value,
             last_name: document.getElementById("last-name").value,
             email: document.getElementById("email").value,
             phone: document.getElementById("phone").value,
+            room_type: document.getElementById("room-type").value,
+            guests: document.getElementById("guests").value,
+            checkin_date: document.getElementById("checkin-date").value,
+            checkout_date: document.getElementById("checkout-date").value,
             message: document.getElementById("message").value,
+            time: now,
         };
 
-        emailjs.send("service_tm3z842", "service_tm3z842", templateParams)
+        emailjs.send("service_tm3z842", "template_5ing9qd", templateParams)
             .then(function (response) {
                 console.log("SUCCESS!", response.status, response.text);
-                alert("Message sent successfully!");
+                alert("Your booking inquiry was sent successfully✅");
+                 
             }, function (error) {
                 console.log("FAILED...", error);
-                alert("Message sending failed! Please try again.");
+                alert("Failed to send inquiry. Please try again.");
             });
     }
 </script>
 
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-               disable: window.innerWidth < 768 // optional: disables AOS on mobile
-        });
-     
-    </script>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ disable: window.innerWidth < 768 });
+</script>
 </body>
 </html>
